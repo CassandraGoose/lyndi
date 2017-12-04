@@ -19,6 +19,11 @@
         url: '/about',
         component: 'about'
       })
+      .state({
+        name: 'submit',
+        url: '/submit',
+        component: 'submit'
+      })
       $urlRouterProvider.otherwise('/')
   }
 }())

@@ -19,6 +19,11 @@ comment-list {
   justify-content: center;
 }
 
+.submit-form {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 .media {
   margin-left: 10%;
   margin-right: 10%;

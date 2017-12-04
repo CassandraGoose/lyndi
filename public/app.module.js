@@ -8,4 +8,8 @@
       templateUrl: '/about.html',
       controller: 'AboutController'
     })
+    .component('submit', {
+      templateUrl: '/submit.html',
+      controller: 'SubmitController'
+    })
 }())
