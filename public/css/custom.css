@@ -1,0 +1,25 @@
+.about-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.comments {
+  display: flex;
+  justify-content: center;
+}
+
+.lyndi-hero {
+  display: flex;
+  justify-content: center;
+}
+
+comment-list {
+  display: flex;
+  justify-content: center;
+}
+
+.media {
+  margin-left: 10%;
+  margin-right: 10%;
+}

@@ -5,10 +5,9 @@ function AboutController($http, $stateParams, $state) {
   const vm = this
 
 
-
   vm.$onInit = function() {
 
-    console.log('about controller');
+    console.log('aboutcontroller');
 
   }
 }

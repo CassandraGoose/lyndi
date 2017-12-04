@@ -13,7 +13,7 @@
   <body>
     <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <a class="navbar-item" href="/">
+        <a class="navbar-item" href="/home">
           LOGO
         </a>
         <a class="navbar-item" href="/about">ABOUT</a>
@@ -24,13 +24,15 @@
         </button>
       </div>
     </nav>
+
     <ui-view></ui-view>
+
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
     <script src="https://unpkg.com/angular-ui-router@1.0.0-beta.3/release/angular-ui-router.js"></script>
     <script src="app.module.js"></script>
+    <script src="/js/app.config.js"></script>
     <script src="/js/home.controller.js"></script>
     <script src="/js/about.controller.js"></script>
-    <script src="/js/app.config.js"></script>
 
   </body>
 
