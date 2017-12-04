@@ -3,8 +3,6 @@ angular.module("app")
 
 function HomeController($http, $stateParams, $state) {
   const vm = this
-  //base urL?
-  console.log('home controller');
 
 
   vm.$onInit = function() {
