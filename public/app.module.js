@@ -1,8 +1,8 @@
 (function() {
   angular.module('app', ['ui.router'])
-    .component('index', {
-      templateUrl: '/index.html',
-      contorller: 'IndexController'
+    .component('home', {
+      templateUrl: '/home.html',
+      controller: 'HomeController'
     })
     .component('about', {
       templateUrl: '/about.html',
