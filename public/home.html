@@ -6,13 +6,14 @@
   <div class="comments">
     What do people say about Lyndi?
     </div>
-    <div class="comment-list">
+
+    <div ng-repeat="comment in $ctrl.comments" class="comment-list">
       <article class="media">
         <div class="media-content">
           <div class="content">
-              <strong>John Smith</strong>  <small>DATE HERE</small>
+              <strong>{{comment.name}}</strong>  <small>{{comment.created_at}}</small>
               <br>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+              {{comment.comment}}
           </div>
         </div>
       </article>

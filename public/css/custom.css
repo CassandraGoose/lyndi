@@ -18,7 +18,9 @@ comment-list {
   display: flex;
   justify-content: center;
 }
-
+.media-content {
+  margin-bottom: 3%;
+}
 .submit-form {
   padding-left: 10%;
   padding-right: 10%;
