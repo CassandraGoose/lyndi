@@ -8,7 +8,6 @@ function HomeController($http, $stateParams, $state) {
   vm.$onInit = function() {
     $http.get('http://localhost:3000/').then(function(response) {
       vm.comments = response.data
-      console.log(vm.comments);
     })
   }
 }
