@@ -5,24 +5,24 @@
   <div class="field">
     <label class="label">Name</label>
     <div class="control">
-      <input class="input" type="text" placeholder="Text input">
+      <input ng-model="$ctrl.comment.name" class="input" type="text" placeholder="Your Name(Optional)">
     </div>
   </div>
 
   <div class="field">
     <label class="label">Message</label>
     <div class="control">
-      <textarea class="textarea" placeholder="Textarea"></textarea>
+      <textarea ng-model="$ctrl.comment.comment" class="textarea" placeholder="Your Comment" required></textarea>
     </div>
   </div>
 
 
   <div class="field is-grouped">
     <div class="control">
-      <button class="button is-link">Submit</button>
+      <button ng-click="$ctrl.submitComment()" class="button is-link">Submit</button>
     </div>
     <div class="control">
-      <button class="button is-text">Cancel</button>
+      <button class="button is-text" href="/">Cancel</button>
     </div>
   </div>
     </div>
