@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'octobermoon';
+  src: url('octobermoon.otf');
+}
+
+.logo {
+  font-family: 'octobermoon';
+  font-size: 170%;
+  padding-top: 5%;
+}
+
 .about-page {
   display: flex;
   flex-direction: row;
