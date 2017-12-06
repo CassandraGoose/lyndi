@@ -40,3 +40,9 @@ comment-list {
 .navbar {
   margin-bottom: 5%;
 }
+
+.logo {
+  margin-top: 2%;
+  height: 20pt;
+  float: right;
+}
