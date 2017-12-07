@@ -7,7 +7,6 @@ function AboutController($http, $stateParams, $state) {
 
   vm.$onInit = function() {
 
-    console.log('aboutcontroller');
 
   }
 }

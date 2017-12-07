@@ -44,6 +44,11 @@
         url: '/page5',
         component: 'page5'
       })
+      .state({
+        name: 'loading',
+        url: '/loading',
+        component: 'loading'
+      })
       $urlRouterProvider.otherwise('/')
   }
 }())

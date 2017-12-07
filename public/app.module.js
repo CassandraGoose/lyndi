@@ -28,4 +28,8 @@
       templateUrl: '/page5.html',
       controller: 'page5Controller'
     })
+    .component('loading', {
+      templateUrl: '/loading.html',
+      controller: 'LoadingController'
+    })
 }())
