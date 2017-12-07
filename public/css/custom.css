@@ -3,6 +3,27 @@
   src: url('octobermoon.otf');
 }
 
+.button.is-link {
+  background-color: grey;
+}
+
+.button:hover {
+  background-color: #29006a !important;
+  color: white !important;
+}
+
+.input:focus, .input.is-focused, .input:active, .input.is-active, .textarea:focus, .textarea.is-focused, .textarea:active, .textarea.is-active {
+  border-color: #29006a;
+}
+
+a:hover {
+  color: #29006a !important;
+}
+
+a {
+  color: grey;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -69,6 +90,7 @@ comment-list {
   height: 20pt;
   float: right;
 }
+
 
 .pages {
   padding-bottom: 3%;
