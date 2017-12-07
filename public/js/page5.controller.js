@@ -10,6 +10,4 @@ function page5Controller($http, $stateParams, $state) {
       vm.comments = response.data
     })
   }
-
-
 }
