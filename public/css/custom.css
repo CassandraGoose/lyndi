@@ -113,3 +113,26 @@ comment-list {
 .cancel:hover {
   color: white !important;
 }
+
+@media only screen and (max-width: 1024px) {
+    .logo {
+        margin: 2%;
+        padding: 2%;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .headings {
+        font-size: 140%;
+        margin-bottom: 15%;
+        margin-top: 15%;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .about-mobile {
+        font-size: 100%;
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+}
