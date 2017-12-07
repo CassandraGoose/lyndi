@@ -1,33 +1,38 @@
 <main>
-  <div class="has-text-centered">
-    <h2>Tell Lyndi how wonderful she is...</h2>
+  <div class="has-text-centered headings">
+    Tell Lyndi how wonderful she is...
 
   </div>
-  <div class="submit-form">
+  <form ng-submit="$ctrl.submitComment()" name="$ctrl.submitForm" class="submit-form" novalidate>
 
 
   <div class="field">
     <label class="label">Name</label>
     <div class="control">
-      <input ng-model="$ctrl.comment.name" class="input" type="text" placeholder="Your Name(Optional)">
+      <input name="name" ng-model="$ctrl.comment.name" class="input" type="text" placeholder="Your Name(Optional)">
     </div>
+
   </div>
 
-  <div class="field">
+  <div class="field" ng-class="{'has-error' : $ctrl.submitForm.comment.$invalid}">
     <label class="label">Message</label>
     <div class="control">
-      <textarea ng-model="$ctrl.comment.comment" class="textarea" placeholder="Your Comment" required></textarea>
+      <textarea name="comment" ng-model="$ctrl.comment.comment" minlength="10" maxlength="300" id="comment" class="textarea" placeholder="Your Comment" required></textarea>
+      <span ng-show="$ctrl.submitForm.comment.$error.minlength"><small>Your comment must be longer.</small></span>
+      <span ng-show="$ctrl.submitForm.comment.$error.maxlength"><small>Your comment may not exceed 300 characters.</small></span>
+
     </div>
+
   </div>
 
 
   <div class="field is-grouped">
     <div class="control">
-      <button ng-click="$ctrl.submitComment()" class="button is-link">Submit</button>
+      <button class="button is-link">Submit</button>
     </div>
     <div class="control">
       <button class="button is-text" href="/">Cancel</button>
     </div>
   </div>
-    </div>
+    </form>
 </main>

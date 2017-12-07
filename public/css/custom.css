@@ -3,10 +3,18 @@
   src: url('octobermoon.otf');
 }
 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .logo {
   font-family: 'octobermoon';
   font-size: 170%;
   padding-top: 5%;
+}
+
+.headings {
+  font-size: 175%;
 }
 
 .about-page {
@@ -26,7 +34,7 @@
 }
 
 .comments {
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 
 .lyndi-hero {
@@ -53,7 +61,7 @@ comment-list {
 }
 
 .navbar {
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 
 .logo {
@@ -64,4 +72,14 @@ comment-list {
 
 .pages {
   padding-bottom: 3%;
+}
+
+.column {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.vertically {
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
