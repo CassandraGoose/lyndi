@@ -24,6 +24,7 @@
   display: flex;
   justify-content: center;
 }
+
 .comments {
   margin-bottom: 5%;
 }
@@ -31,13 +32,16 @@
 .lyndi-hero {
   margin-bottom: 3%;
 }
+
 comment-list {
   display: flex;
   justify-content: center;
 }
+
 .media-content {
   margin-bottom: 3%;
 }
+
 .submit-form {
   padding-left: 10%;
   padding-right: 10%;
@@ -56,4 +60,8 @@ comment-list {
   margin-top: 2%;
   height: 20pt;
   float: right;
+}
+
+.pages {
+  padding-bottom: 3%;
 }

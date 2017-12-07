@@ -10,4 +10,6 @@ function HomeController($http, $stateParams, $state) {
       vm.comments = response.data
     })
   }
+
+  
 }

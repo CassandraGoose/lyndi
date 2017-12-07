@@ -24,6 +24,26 @@
         url: '/submit',
         component: 'submit'
       })
+      .state({
+        name: 'page2',
+        url: '/page2',
+        component: 'page2'
+      })
+      .state({
+        name: 'page3',
+        url: '/page3',
+        component: 'page3'
+      })
+      .state({
+        name: 'page4',
+        url: '/page4',
+        component: 'page4'
+      })
+      .state({
+        name: 'page5',
+        url: '/page5',
+        component: 'page5'
+      })
       $urlRouterProvider.otherwise('/')
   }
 }())
