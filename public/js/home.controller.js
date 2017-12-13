@@ -6,10 +6,10 @@ function HomeController($http, $stateParams, $state) {
   const apiUrl = 'localhost:3000/'
 
   vm.$onInit = function() {
-    $http.get('http://localhost:3000/').then(function(response) {
+    $http.get('https://limitless-springs-46707.herokuapp.com/').then(function(response) {
       vm.comments = response.data
     })
   }
 
-  
+
 }

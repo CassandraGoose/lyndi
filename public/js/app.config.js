@@ -11,7 +11,7 @@
     $stateProvider
       .state({
         name: 'home',
-        url: '/',
+        url: '/home',
         component: 'home'
       })
       .state({
@@ -46,9 +46,9 @@
       })
       .state({
         name: 'loading',
-        url: '/loading',
+        url: '/',
         component: 'loading'
       })
-      $urlRouterProvider.otherwise('/')
+      $urlRouterProvider.otherwise('/home')
   }
 }())

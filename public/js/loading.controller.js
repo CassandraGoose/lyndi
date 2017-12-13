@@ -7,6 +7,6 @@ function LoadingController($http, $stateParams, $state, $timeout) {
   vm.$onInit = function() {
     $timeout( function(){
       $state.go('home')
-    }, 5000 );
+    }, 8000 );
     }
   }

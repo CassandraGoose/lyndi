@@ -6,7 +6,7 @@ function page2Controller($http, $stateParams, $state) {
   const apiUrl = 'localhost:3000/'
 
   vm.$onInit = function() {
-    $http.get('http://localhost:3000/page-2').then(function(response) {
+    $http.get('https://limitless-springs-46707.herokuapp.com/page-2').then(function(response) {
       vm.comments = response.data
     })
   }
